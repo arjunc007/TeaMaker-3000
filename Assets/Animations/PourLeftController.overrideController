@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PourLeftController
+  m_Controller: {fileID: 9100000, guid: 43983bdd27460d644921dad4e21ba4f9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9118b615991080a46a01848c7b543059, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8d9f6efbe2fbb21429e92b7420e1d0fb, type: 2}

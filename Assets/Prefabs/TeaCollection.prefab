@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1365487337267258}
+  m_IsPrefabParent: 1
+--- !u!1 &1365487337267258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4407307228165380}
+  - component: {fileID: 114502733605435004}
+  - component: {fileID: 114864642434679648}
+  m_Layer: 0
+  m_Name: TeaCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4407307228165380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365487337267258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114502733605435004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365487337267258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb8b5a0879059441a11ab0f6bf5f341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spaceObjectPrefabs:
+  - {fileID: 1713521368181808, guid: 4e891dcf3b053864c99d5ea329d42971, type: 2}
+  - {fileID: 1334084329490344, guid: e80b7656c8d657243bfe1ed760b36702, type: 2}
+  - {fileID: 1042080202874354, guid: 821459c1281b5294e8a5778408657a30, type: 2}
+  - {fileID: 1662450962955980, guid: 152973c7374e1b9479f4d323a8abc84b, type: 2}
+  - {fileID: 1487168114808088, guid: 319734c83632bca459c7375276e192b5, type: 2}
+  - {fileID: 1299628737666272, guid: caa7550ca1c6f8d4d8231d618e6d4a45, type: 2}
+  - {fileID: 1736004237526292, guid: 063390355269630439d330802a57fcc5, type: 2}
+  - {fileID: 1352159004171370, guid: c156ce31359a5d04496f7d24bece69df, type: 2}
+  - {fileID: 1036615304284524, guid: e0e91255f100d0640ada12415268cd1e, type: 2}
+--- !u!114 &114864642434679648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365487337267258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b265a80c4583542b3ed671e616568c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
